@@ -1,0 +1,49 @@
+{
+  "name": "alarm-clock",
+  "productName": "Alarm Clock",
+  "version": "0.0.1",
+  "description": "alarm clock",
+  "author": "YogaPan",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "alarm",
+    "clock"
+  ],
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.8",
+    "eslint": "^3.1.1",
+    "husky": "^0.11.5"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "npm run lint",
+    "lint": "eslint .",
+    "precommit": "npm test",
+    "prepush": "npm test"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "yoda": 0,
+      "semi": [
+        2,
+        "always"
+      ],
+      "no-unused-vars": 2,
+      "no-extra-semi": 2,
+      "semi-spacing": [
+        2,
+        {
+          "before": false,
+          "after": true
+        }
+      ]
+    }
+  }
+}
