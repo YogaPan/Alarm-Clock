@@ -3,8 +3,8 @@ const path = require('path');
 module.exports = {
   entry: './lib/index.js',
   output: {
-    path: path.join(__dirname, './dist'),
-    filename: 'bundle.js'
+    path: path.join(__dirname, 'app', 'dist'),
+    filename: 'bundle.js',
   },
   module: {
     loaders: [
@@ -13,10 +13,10 @@ module.exports = {
         loader: 'babel',
         exclude: /node_modules/,
         query: {
-          presets: ['react', 'es2015']
-        }
-      }
-    ]
+          presets: ['react', 'es2015'],
+        },
+      },
+    ],
   },
-  target: 'electron'
+  target: 'electron',
 };

@@ -3,8 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Hello World</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .titlebar {
+      -webkit-user-select: none;
+      -webkit-app-region: drag;
+      height: 27px;
+      background-color: #232323;
+    }
+
+    body {
+      background-color: #333333;
+    }
+  </style>
 </head>
 <body>
+  <div class="titlebar"></div>
   <div id="mount"></div>
   <script src="./dist/bundle.js"></script>
 </body>
