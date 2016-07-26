@@ -16,6 +16,7 @@
     "dev": "webpack --watch",
     "lint": "eslint .",
     "precommit": "npm test",
+    "prepush": "npm test",
     "postinstall": "install-app-deps",
     "pack": "build --dir",
     "dist": "build"
