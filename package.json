@@ -16,8 +16,7 @@
     "dev": "webpack --watch",
     "lint": "eslint .",
     "build": "electron-packager . --all",
-    "precommit": "npm test",
-    "prepush": "npm test"
+    "precommit": "npm test"
   },
   "dependencies": {
     "aphrodite": "^0.5.0",
@@ -36,37 +35,9 @@
     "electron-packager": "^7.3.0",
     "electron-prebuilt": "^1.2.8",
     "eslint": "^3.1.1",
-    "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-import": "^1.11.1",
-    "eslint-plugin-jsx-a11y": "^2.0.1",
     "eslint-plugin-react": "^5.2.2",
     "husky": "^0.11.5",
     "webpack": "^1.13.1"
-  },
-  "eslintConfig": {
-    "extends": "airbnb",
-    "rules": {
-      "no-console": 0,
-      "no-param-reassign": 0,
-      "no-unused-vars": [
-        "error",
-        {
-          "vars": "all",
-          "args": "none"
-        }
-      ],
-      "comma-dangle": [
-        2,
-        "always-multiline"
-      ],
-      "arrow-body-style": 0,
-      "new-cap": 0,
-      "consistent-return": 0
-    },
-    "settings": {
-      "import/core-modules": [
-        "electron"
-      ]
-    }
   }
 }
