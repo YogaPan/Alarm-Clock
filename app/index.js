@@ -16,8 +16,8 @@ function createWindow() {
   BrowserWindow.addDevToolsExtension(reduxDevTool);
 
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 550,
+    height: 550,
     titleBarStyle: 'hidden',
   });
 
