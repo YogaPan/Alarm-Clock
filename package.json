@@ -11,16 +11,15 @@
     "clock"
   ],
   "scripts": {
-    "start": "electron .",
+    "start": "NODE_ENV=development electron app",
     "test": "npm run lint",
     "dev": "webpack --watch",
-    "product": "webpack -p --progress",
     "lint": "eslint .",
     "precommit": "npm test",
     "prepush": "npm test",
     "postinstall": "install-app-deps",
-    "pack": "build --dir",
-    "dist": "build"
+    "pack": "webpack -p --progress && build --dir",
+    "dist": "webpack -p --progress && build"
   },
   "dependencies": {
     "aphrodite": "^0.5.0",

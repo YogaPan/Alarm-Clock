@@ -16,7 +16,7 @@ function createWindow() {
   BrowserWindow.addDevToolsExtension(reduxDevTool);
 
   mainWindow = new BrowserWindow({
-    width: 600,
+    width: 800,
     height: 500,
     titleBarStyle: 'hidden',
   });
@@ -31,7 +31,7 @@ function createWindow() {
 
   mainWindow.loadURL(`file://${__dirname}/index.html`);
 
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 
   mainWindow.on('closed', () => {
     mainWindow = null;
