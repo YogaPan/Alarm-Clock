@@ -11,7 +11,7 @@
     "clock"
   ],
   "scripts": {
-    "start": "NODE_ENV=development electron app",
+    "start": "electron app",
     "test": "npm run lint",
     "dev": "webpack --watch",
     "lint": "eslint .",
