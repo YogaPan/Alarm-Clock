@@ -1,5 +1,9 @@
-const electron = require('electron');
-const { app, BrowserWindow, globalShortcut, Menu } = electron;
+const {
+  app,
+  BrowserWindow,
+  globalShortcut,
+  Menu,
+} = require('electron');
 const menu = require('./menu.js');
 
 let mainWindow;
