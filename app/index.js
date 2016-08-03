@@ -14,7 +14,7 @@ function createWindow() {
     'fmkadmapgofadopljbjfkapdkoienihi/0.15.0_0';
   const reduxDevTool = '/Users/yogapan/Library/Application Support/' +
     'Google/Chrome/Default/Extensions/' +
-    'lmhkpmbekcpmknklioeibfkpmmfibljd/2.3.0_0';
+    'lmhkpmbekcpmknklioeibfkpmmfibljd/2.4.0_0';
 
   BrowserWindow.addDevToolsExtension(reactDevTool);
   BrowserWindow.addDevToolsExtension(reduxDevTool);
