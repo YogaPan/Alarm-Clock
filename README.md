@@ -1,7 +1,26 @@
-# Electron + Webpack example
+# Alarm Clock
 
-## link
+This is an 'electron + webpack + react' example for this slide:
+https://hackmd.io/p/rJpxFxuu
 
-### webpack
-[Webpack Howto](https://github.com/petehunt/webpack-howto)
-[如何使用 Webpack 模組整合工具](https://rhadow.github.io/2015/03/23/webpackIntro/)
+## How to start?
+
+### clone this project
+```shell
+$ git clone https://github.com/YogaPan/Alarm-Clock.git
+```
+
+### Install dependencies
+```shell
+$ npm install
+```
+
+### Start development
+```shell
+$ npm start
+```
+
+### Build your application
+```shell
+$ npm run dist
+```
