@@ -59,4 +59,3 @@ app.on('activate', () => {
 app.on('will-quit', () => {
   globalShortcut.unregisterAll();
 });
-
