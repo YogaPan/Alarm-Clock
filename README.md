@@ -1,6 +1,6 @@
 # Alarm Clock
 
-This is an 'electron + webpack + react' example for this slide:
+This is an "electron + webpack + react" example for this slide:
 https://hackmd.io/p/rJpxFxuu
 
 ## How to start?
