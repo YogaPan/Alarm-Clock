@@ -3,6 +3,8 @@
 This is an "electron + webpack + react" example for this slide:
 https://hackmd.io/p/rJpxFxuu
 
+![Alarm Clock](http://i.imgur.com/7lGFoVW.png)
+
 ## How to start?
 
 ### clone this project
